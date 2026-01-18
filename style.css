@@ -1,0 +1,53 @@
+/* body{
+    background-color: aqua;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+    background-color: #1A0B2E;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+.nav-head{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.wave{
+    background: linear-gradient(to right, #6a5af9, #d63384, #f06595);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-text{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.main-btn{
+    color: white;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    padding: 13px 16px;
+    border: none;
+    border-radius: 10000px;
+       font-size: 1rem;
+    font-weight: 600;
+}
