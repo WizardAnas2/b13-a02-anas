@@ -51,3 +51,32 @@ header{
        font-size: 1rem;
     font-weight: 600;
 }
+.hamburger{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* responsive for sm device 576 px */
+@media screen and (max-width:576px)
+{   
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-text{
+        display: none;
+    }
+    .main-btn{
+        display: none;
+    }
+    .hamburger{
+    display: inline;
+}
+}
