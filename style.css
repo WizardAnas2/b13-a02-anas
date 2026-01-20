@@ -12,6 +12,9 @@
   font-optical-sizing: auto;
   
 }
+.display-flex{
+  display: flex;
+}
 header{
     background-color: #1A0B2E;
     
@@ -28,7 +31,7 @@ header{
     font-weight: 900;
 }
 .wave{
-    background: linear-gradient(to right, #6a5af9, #d63384, #f06595);
+    background: linear-gradient(to right, #301bf5, #ff0080, #f84e8a);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -94,6 +97,7 @@ header{
 
 .hero-circle {
   width: 100%;
+  position: relative;
 }
 
 .hero-mic {
@@ -353,6 +357,7 @@ padding: 10px;
 .host{
     background-color: #1A0B2E;
     color: white;
+    padding-bottom: 60px;
 }
 .host>h2{
   font-size: 2.5rem;
@@ -362,7 +367,7 @@ padding: 10px;
 .host-container{
   width: 1200px;
   height: 300px;
-  background-color: #351165;
+  background-color: #6f23d34f;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -390,6 +395,35 @@ padding: 10px;
   gap: 20px;
   align-items: center;
 }
+
+.foot-cont{
+  background: url('./assets/footer-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+.foot-cont>h1{
+  font-size: 4rem;
+}
+.sponsor{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sponsor>p{
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.copyright{
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+
 
 
 
@@ -548,6 +582,11 @@ padding: 10px;
 .host-img{
   margin: 0 auto;
   padding-bottom: none;
+}
+.sponsor{
+ display: grid;
+ grid-template-columns: repeat(2,150px);
+ justify-content: center;
 }
 
 }
