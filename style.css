@@ -53,6 +53,12 @@ header{
     border-radius: 10000px;
     font-size: 1rem;
     font-weight: 600;
+    transition: transform 0.5s;
+}
+.main-btn:hover{
+  cursor: pointer;
+  border: 4px solid white;
+  transform: scale(1.5);
 }
 .hamburger{
     display: none;
@@ -141,6 +147,11 @@ header{
     gap: 10px;
   background: linear-gradient(135deg, #F7E93F, #f7008c, #8206ee);
   border: none;
+  transition: transform 0.7s;
+}
+.btn.primary:hover{
+  transform: rotate(360deg);
+  border: 4px solid white;
 }
 
 .btn.outline {
@@ -150,6 +161,13 @@ header{
   background: transparent;
   border: 1px solid #00ff95;
   color: #00ff95;
+  transition: transform 0.5s;
+}
+.btn.outline:hover{
+  background-color: transparent;
+  border: 3px solid #00ff95;
+  color: #00ff95;
+  transform: scale(1.5);
 }
 .extra-text{
   background-color: #1A0B2E;
@@ -328,6 +346,10 @@ padding: 120px 300px;
   cursor: pointer;
   background: linear-gradient(135deg, #ffea00, #ff3cac, #7c00e9, #2b86c5);
   color: white;
+  transition: transorm 1s;
+}
+.play-btn:hover{
+  transform: scale(1.5) ;
 }
 
 .card-content {
@@ -380,6 +402,7 @@ padding: 10px;
 .host-img{
   justify-content: left;
 }
+
 .host-texts>h3{
   font-size: 2rem;
   font-weight: 800;
@@ -407,6 +430,10 @@ padding: 10px;
 }
 .foot-cont>h1{
   font-size: 4rem;
+  transition: transform 2s;
+}
+.foot-cont>h1:hover{
+  transform: rotate(360deg);
 }
 .sponsor{
   display: flex;
@@ -457,6 +484,11 @@ padding: 10px;
     }
     .hamburger{
     display: inline;
+}
+.hamburger:hover{
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 50%;
 }
   .hero{
     max-height: 450px;
