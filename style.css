@@ -350,6 +350,47 @@ padding: 10px;
 }
 
 
+.host{
+    background-color: #1A0B2E;
+    color: white;
+}
+.host>h2{
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.host-container{
+  width: 1200px;
+  height: 300px;
+  background-color: #351165;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  gap: 40px;
+  border-radius: 40px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.705);
+}
+.host-img{
+  justify-content: left;
+}
+.host-texts>h3{
+  font-size: 2rem;
+  font-weight: 800;
+  padding-bottom: 16px;
+}
+.host-texts>p{
+  font-size: 1rem;
+  font-weight: 200;
+  padding-bottom: 16px;
+}
+.social-icons{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 
 
 
@@ -425,7 +466,7 @@ padding: 10px;
   color: white;
 }
 .forgot{
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
     padding-top: 50px;
@@ -480,4 +521,33 @@ padding: 10px;
   font-family: system-ui, sans-serif;
   box-shadow: 0 10px 40px rgba(0,0,0,.4);
 }
+.host>h2{
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+.host-container{
+  width: 400px;
+  height: 700px;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 24px;
+  padding: 0 auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.705);
+}
+.host-texts{
+  text-align: center;
+}
+.social-icons{
+  justify-content: center;
+  padding-top: 20px;
+}
+.host-img{
+  margin: 0 auto;
+  padding-bottom: none;
+}
+
 }
